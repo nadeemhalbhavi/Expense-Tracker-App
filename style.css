@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:#5b09d6;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color:#5b09d6
+    
+}
+.container{
+    padding: 120px;
+    color: white;
+
+}
+
+.container h1{
+    padding: 4px;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #09D6C2!important;
+  border-color: #96d3ec;
+  
+}
+
+.btn-primary{
+    margin-top: 20px;
+    background-color: #731CF6;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #6f3fb7;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+.btn-primary :hover{
+    background-color:#6f3fb7 ;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+.list-group-item{
+    margin-top: 2px;
+    background-color:#091ED6;
+    width: 50%;
+    margin: 3px;
+    color: white;
+    border: 1px solid black;
+   
+}
+
+.btn-danger{
+    margin: auto 12px;
+}
+.btn-outline-info{
+    margin: auto 12px;
+}
+
+.form-control{
+    background-color: #09D6C2;
+    width: 50%;
+   
+}
+label{
+    padding: 8px 3px;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
